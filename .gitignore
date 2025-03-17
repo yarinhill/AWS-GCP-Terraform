@@ -1,0 +1,7 @@
+aws/.terraform*
+aws/terraform.tfstate*
+gcp/.terraform*
+gcp/terraform.tfstate*
+gcp/iam.json
+windows-aws/.terraform*
+windows-aws/terraform.tfstate*
