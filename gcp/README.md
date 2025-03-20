@@ -44,23 +44,6 @@ gcloud projects add-iam-policy-binding <your_project_id>  \
   --role="projects/<your_project_id>/roles/terraformCustomRole"
 ```
 
-### 06.
-
-Enable APIs & Services:
-
-Enable Throught URL
-
-```
-https://console.cloud.google.com/apis
-```
-
-Or Throught CLI
-
-```
-gcloud services enable iam.googleapis.com --project=<Project_ID>
-```
-
-
 ## 2. Infrastructure Setup (Terraform)
 
 ### 01. (Optional)
