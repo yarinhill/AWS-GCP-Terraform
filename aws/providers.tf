@@ -1,4 +1,3 @@
-
 provider "aws" {
   profile = var.profile
   region  = var.region
@@ -6,7 +5,7 @@ provider "aws" {
 }
 
 terraform {
-  required_version = ">= 1.3.0"
+  required_version = ">= 1.11.0"
 }
 
 data "aws_availability_zones" "available" {
